@@ -1,6 +1,6 @@
 {
   "name": "callbag-pseudo-rxjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Proof of concept that implements a subset of RxJS using callbags",
   "repository": {
     "type": "git",
