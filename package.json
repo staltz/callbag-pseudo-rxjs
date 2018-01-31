@@ -1,0 +1,42 @@
+{
+  "name": "callbag-pseudo-rxjs",
+  "version": "1.0.0",
+  "description": "Proof of concept that implements a subset of RxJS using callbags",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/callbag-pseudo-rxjs.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag",
+    "callback",
+    "standard",
+    "spec",
+    "rxjs",
+    "observable",
+    "iterable"
+  ],
+  "dependencies": {
+    "callbag": "1.0.x",
+    "callbag-from-event": "1.0.x",
+    "callbag-from-promise": "1.0.x",
+    "callbag-interval": "1.0.x",
+    "callbag-map": "1.0.x",
+    "callbag-scan": "1.0.x",
+    "callbag-take": "1.0.x",
+    "callbag-skip": "1.0.x",
+    "callbag-filter": "1.0.x",
+    "callbag-merge": "1.0.x",
+    "callbag-concat": "1.0.x",
+    "callbag-combine": "1.0.x",
+    "callbag-share": "1.0.x"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
