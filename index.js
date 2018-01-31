@@ -23,7 +23,7 @@ class Observable {
           if (t === 2) subscription.unsubscribe();
         }
         sink(0, talkback);
-        subscription = subscribe({
+        subscription = subscribeOrSource({
           next: x => sink(1, x),
           error: e => sink(2, e),
           complete: () => sink(2),
